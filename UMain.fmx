@@ -1,0 +1,101 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'CUSTOM PROGRESSBAR'
+  ClientHeight = 535
+  ClientWidth = 398
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object rectToolbar: TRectangle
+    Align = Top
+    Fill.Color = claMediumseagreen
+    Size.Width = 398.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object btnMas: TButton
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 118.000000000000000000
+    Size.Width = 378.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = '+'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TintColor = claMediumseagreen
+    OnClick = btnMasClick
+  end
+  object btnMenos: TButton
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 378.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '-'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TintColor = claMediumseagreen
+    OnClick = btnMenosClick
+  end
+  object LYProgressBar: TLayout
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 398.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object lblPorcentajeProgress: TLabel
+      Align = Bottom
+      StyledSettings = [Family, FontColor]
+      Position.Y = 37.000000000000000000
+      Size.Width = 398.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = '0%'
+      TabOrder = 0
+    end
+  end
+  object NumberBox: TNumberBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 4
+    Cursor = crIBeam
+    Max = 15.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 10.000000000000000000
+    Position.Y = 177.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 378.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+    OnChange = NumberBoxChange
+  end
+end

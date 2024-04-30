@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/30 10:29:35.000.654,=C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/30 10:34:39.000.997,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\UMain.pas</Transaction>
+    <Transaction>2024/04/30 10:34:39.000.997,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\UMain.fmx</Transaction>
+    <Transaction>2024/04/30 10:34:59.000.601,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\CUSTOM.dproj</Transaction>
+    <Transaction>2024/04/30 10:35:15.000.403,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\CUSTOM.dproj=C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\CustomProgressBar.dproj</Transaction>
+    <Transaction>2024/04/30 10:39:21.000.514,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\UMain.fmx=C:\Users\drodriguez\Desktop\Ta\CustomProgress_Bar\UMain.fmx</Transaction>
+    <Transaction>2024/04/30 10:39:21.000.514,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\UMain.pas=C:\Users\drodriguez\Desktop\Ta\CustomProgress_Bar\UMain.pas</Transaction>
+    <Transaction>2024/04/30 10:39:23.000.593,C:\Users\drodriguez\Documents\Embarcadero\Studio\Projects\CustomProgressBar.dproj=C:\Users\drodriguez\Desktop\Ta\CustomProgress_Bar\CustomProgressBar.dproj</Transaction>
+    <Transaction>2024/04/30 13:50:32.000.827,=C:\Users\drodriguez\Desktop\Ta\CustomProgress_Bar\UCustomProgressBar.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="9LYPFMTSXC6HRS45" Android64="9LYPFMTSXC6HRS45"/>
+	</ActiveMobileDevice>
+</BorlandProject>
